@@ -153,7 +153,7 @@ class Analyzer:
         self.comb = pd.DataFrame(self.game.display().groupby(list(self.game.display().columns)).size()) #creating a dataframe based on the data frame from the DieGame class, grouping by the columns
         # transforming those columns into a list, and takes the number of rows using size 
         self.comb.columns = ['Number of Instances'] #naming the columns
-        return self.comb 
+        return self.comb.sort_values(by=['Number of Instances'])
     
     def face_counts(self):
         ''' 
