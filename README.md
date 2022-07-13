@@ -9,19 +9,45 @@ This package will walk through a montecarlo simulation for probability objects t
 
 ### API description: <br> 
 - Class Die:
-  - init
+  - init 
+    - params : takes faces as an argument 
+    - data types: strings or numbers
+    - default : the weights for each face is 1.0 
   - change the weight
+    - params : faces and weight 
+    - data types: strings or numbers for faces, integers or floats for weights
   - roll
+    - params : number of rolls 
+    - data types: integers or floats
+    - default : 1 roll
   - show
+    - params : none
+    - data types: dataframe displaying the current set of faces and weights 
 - Class DieGame:
   - init
+    - params : one or more defined Die objects where each die has the same number of sides and associated faces, each die may have its own weights 
+    - data types: composite of faces and weights 
   - play
+    - params : how many times a die should be rolled 
+    - data types: integer or float
+    - default: 1 
   - display
+    - params : wide = True
+    - data types: passes a dataframe in either wide (True as the input) or narrow (False as the input), boolean type
+    - default : True
 - Class Analyzer:
   - init
+    - params : takes a game object (defined in DieGame) 
+    - data types: die faces as either numbers or strings
   - jackpot
+    - params : none
+    - data types: integer
   - combo
+    - params : none
+    - data types: dataframe
   - faces count per roll 
+    - params : none
+    - data types : datframe 
 
 ### Synopsis: <br> 
 #### Below are utilizing all of the different methods inside each of the classes listed above, please see montecarlo_demo.ipynb for more details: 
