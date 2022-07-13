@@ -7,6 +7,12 @@ This package will walk through a montecarlo simulation for probability objects t
 - Package: montecarlo
 - Date initially commited: 07/12/2022
 
+### Installation: 
+- pip install -e .
+- import montecarlo.montecarlo import Die
+- import montecarlo.montecarlo import DieGame
+- import montecarlo.montecarlo import Analyzer
+
 ### API description: <br> 
 - Class Die:
   - init 
