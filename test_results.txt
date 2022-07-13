@@ -1,0 +1,13 @@
+test_change_the_weight (__main__.DieGameTestSuite) ... ok
+test_combo (__main__.DieGameTestSuite) ... ok
+test_display (__main__.DieGameTestSuite) ... ok
+test_face_count (__main__.DieGameTestSuite) ... ok
+test_jackpot (__main__.DieGameTestSuite) ... ok
+test_play2 (__main__.DieGameTestSuite) ... ok
+test_roll (__main__.DieGameTestSuite) ... ok
+test_show (__main__.DieGameTestSuite) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.068s
+
+OK
