@@ -12,6 +12,8 @@ This package will walk through a montecarlo simulation for probability objects t
 - import montecarlo.montecarlo import Die
 - import montecarlo.montecarlo import DieGame
 - import montecarlo.montecarlo import Analyzer
+- Note: depending on testing you will need to download unittest and import the random package, pandas and numpy will be installed 
+- Note 2: The original package was created on a Mac, therefore os needs to be imported to access the files if you will be using the package locally
 
 ### API description: <br> 
 - Class Die:
